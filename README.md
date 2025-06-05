@@ -46,7 +46,7 @@ Execute o script para gerar o arquivo CSV tratado:
 
 ```bash
 python scripts/limpeza_dados.py
-````
+```
 
 2. **Análise dos dados**
 
@@ -90,6 +90,5 @@ brasileirao-analise/
 🔗 [LinkedIn](https://www.linkedin.com/in/ceciliagomes1)
 📫 E-mail: [ceciliaoliveira72@gmail.com](mailto:ceciliaoliveira72@gmail.com)
 
-```
 
 """
