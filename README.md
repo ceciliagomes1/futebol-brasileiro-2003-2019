@@ -44,7 +44,7 @@ Os dados foram obtidos gratuitamente em:
 
 Execute o script para gerar o arquivo CSV tratado:
 
-```bash
+```
 python scripts/limpeza_dados.py
 ````
 ````
@@ -52,9 +52,8 @@ python scripts/limpeza_dados.py
 
 Execute o script com a análise exploratória:
 
-```bash
-python notebooks/analise-exploratoria.py
 ```
+python notebooks/analise-exploratoria.py
 ````
 ---
 
