@@ -46,7 +46,7 @@ Execute o script para gerar o arquivo CSV tratado:
 
 ```bash
 python scripts/limpeza_dados.py
-````
+```
 
 2. **Análise dos dados**
 
@@ -62,18 +62,18 @@ notebooks/analise-exploratoria.py
 
 brasileirao-analise/
 │
-├── dados/ # Dados brutos e tratados
+├── dados/               # Dados brutos e tratados
 │   ├── matches-2003-2019.txt
 │   └── matches-2003-2019.csv
 │
-├── notebooks/ # Notebooks com análise exploratória e gráficos
+├── notebooks/           # Scripts com análise exploratória e gráficos
 │   └── analise-exploratoria.py
 │
-├── scripts/ # Scripts de limpeza e tratamento dos dados
-│   └── limpeza\_dados.py
+├── scripts/             # Scripts de limpeza e tratamento dos dados
+│   └── limpeza_dados.py
 │
-├── README.md # Esta documentação
-└── .gitignore # Arquivos ignorados pelo Git
+├── README.md            # Esta documentação
+└── .gitignore           # Arquivos ignorados pelo Git
 
 ---
 
