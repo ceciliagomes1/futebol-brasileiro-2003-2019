@@ -37,7 +37,7 @@ Os dados foram obtidos gratuitamente em:
 
 ---
 
-````markdown
+`````
 ## ▶️ Como executar
 
 1. **Limpeza dos dados**
@@ -46,7 +46,7 @@ Execute o script para gerar o arquivo CSV tratado:
 
 ```bash
 python scripts/limpeza_dados.py
-```
+````
 
 2. **Análise dos dados**
 
@@ -62,18 +62,18 @@ notebooks/analise-exploratoria.py
 
 brasileirao-analise/
 │
-├── dados/               # Dados brutos e tratados
+├── dados/ # Dados brutos e tratados
 │   ├── matches-2003-2019.txt
 │   └── matches-2003-2019.csv
 │
-├── notebooks/           # Scripts com análise exploratória e gráficos
+├── notebooks/ # Notebooks com análise exploratória e gráficos
 │   └── analise-exploratoria.py
 │
-├── scripts/             # Scripts de limpeza e tratamento dos dados
-│   └── limpeza_dados.py
+├── scripts/ # Scripts de limpeza e tratamento dos dados
+│   └── limpeza\_dados.py
 │
-├── README.md            # Esta documentação
-└── .gitignore           # Arquivos ignorados pelo Git
+├── README.md # Esta documentação
+└── .gitignore # Arquivos ignorados pelo Git
 
 ---
 
@@ -91,3 +91,5 @@ brasileirao-analise/
 📫 E-mail: [ceciliaoliveira72@gmail.com](mailto:ceciliaoliveira72@gmail.com)
 
 ```
+
+"""
