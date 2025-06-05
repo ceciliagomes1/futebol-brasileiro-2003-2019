@@ -37,7 +37,7 @@ Os dados foram obtidos gratuitamente em:
 
 ---
 
-`````
+````
 ## ▶️ Como executar
 
 1. **Limpeza dos dados**
@@ -46,42 +46,44 @@ Execute o script para gerar o arquivo CSV tratado:
 
 ```bash
 python scripts/limpeza_dados.py
-```
-
+````
+````
 2. **Análise dos dados**
 
-Execute o notebook com a análise exploratória:
+Execute o script com a análise exploratória:
 
 ```bash
-notebooks/analise-exploratoria.py
+python notebooks/analise-exploratoria.py
 ```
-
+````
 ---
 
 ## 🗂️ Estrutura do Projeto
 
+```
 brasileirao-analise/
 │
-├── dados/ # Dados brutos e tratados
+├── dados/                         # Dados brutos e tratados
 │   ├── matches-2003-2019.txt
 │   └── matches-2003-2019.csv
 │
-├── notebooks/ # Notebooks com análise exploratória e gráficos
+├── notebooks/                     # Scripts com análise exploratória e gráficos
 │   └── analise-exploratoria.py
 │
-├── scripts/ # Scripts de limpeza e tratamento dos dados
-│   └── limpeza\_dados.py
+├── scripts/                       # Scripts de limpeza e tratamento dos dados
+│   └── limpeza_dados.py
 │
-├── README.md # Esta documentação
-└── .gitignore # Arquivos ignorados pelo Git
+├── README.md                      # Esta documentação
+└── .gitignore                     # Arquivos ignorados pelo Git
+```
 
 ---
 
 ## 📊 Principais Insights
 
-* Gols por ano: evolução do número total de gols por temporada.
-* Times com mais vitórias: destaque para os clubes mais vencedores no período.
-* Média de gols por jogo: tendência ofensiva ao longo dos anos.
+* **Gols por ano**: evolução do número total de gols por temporada.
+* **Times com mais vitórias**: destaque para os clubes mais vencedores no período.
+* **Média de gols por jogo**: tendência ofensiva ao longo dos anos.
 
 ---
 
@@ -89,6 +91,5 @@ brasileirao-analise/
 
 🔗 [LinkedIn](https://www.linkedin.com/in/ceciliagomes1)
 📫 E-mail: [ceciliaoliveira72@gmail.com](mailto:ceciliaoliveira72@gmail.com)
-
 
 """
