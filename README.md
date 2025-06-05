@@ -37,7 +37,6 @@ Os dados foram obtidos gratuitamente em:
 
 ---
 
-````
 ## ▶️ Como executar
 
 1. **Limpeza dos dados**
@@ -47,8 +46,6 @@ Execute o script para gerar o arquivo CSV tratado:
 ```
 python scripts/limpeza_dados.py
 ```
-````
-````
 2. **Análise dos dados**
 
 Execute o script com a análise exploratória:
@@ -56,7 +53,6 @@ Execute o script com a análise exploratória:
 ```
 python notebooks/analise-exploratoria.py
 ```
-````
 ---
 
 ## 🗂️ Estrutura do Projeto
