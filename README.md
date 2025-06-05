@@ -46,6 +46,7 @@ Execute o script para gerar o arquivo CSV tratado:
 
 ```
 python scripts/limpeza_dados.py
+```
 ````
 ````
 2. **Análise dos dados**
@@ -54,6 +55,7 @@ Execute o script com a análise exploratória:
 
 ```
 python notebooks/analise-exploratoria.py
+```
 ````
 ---
 
@@ -91,4 +93,3 @@ brasileirao-analise/
 🔗 [LinkedIn](https://www.linkedin.com/in/ceciliagomes1)
 📫 E-mail: [ceciliaoliveira72@gmail.com](mailto:ceciliaoliveira72@gmail.com)
 
-"""
